@@ -219,7 +219,7 @@ input[type=submit] {
 @media screen and (max-width: 980px){
 #main-container {
   max-width: 500px;
-  margin-bottom: 400px;
+  padding-bottom: 200px;
   float: left;
   padding-top: 0%;
 }
@@ -227,12 +227,18 @@ input[type=submit] {
   padding-top: 0%;
   margin-bottom: 0%;
 }
+.links {
+  margin-right: 30px;
+}
 }
 
 @media screen and (max-width: 768px){
 #main-container {
   max-width: 100%;
   margin: 0 0 40px;
+}
+.auth-image{
+  width: 350px;
 }
 }
 
@@ -246,6 +252,9 @@ input[type=submit] {
   width: 100%;
 }
 #main-container {
-  margin-bottom: 400px;
+  padding-bottom: 200px;
+}
+.auth-image{
+  width: 100%;
 }
 }
