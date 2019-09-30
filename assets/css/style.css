@@ -201,6 +201,7 @@ h3, h2 {
   text-align: center;
   background: #c5d0dd;
   border-bottom: 0;
+  opacity: 1;
 }
 
 .auth-image {
