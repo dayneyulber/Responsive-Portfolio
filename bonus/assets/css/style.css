@@ -237,3 +237,34 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+footer {
+  background-color: #292929;
+}
+
+.social {
+  margin-top: 60px;
+}
+
+.social a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.social .fa {
+  color: #fff;
+  font-size: 50px;
+  margin: 15px 5px;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  transition: all .5s ease;
+}
+
+.social .fa:hover {
+  background: #ff1053;
+  border-color: #ff1053;
+  border-radius: 50%;
+}
